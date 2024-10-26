@@ -1,0 +1,80 @@
+[0.029s] Invoking command in '/home/shiva/Documents/robot_arm/build/cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake /home/shiva/Documents/robot_arm/src/cpp_examples -DCMAKE_INSTALL_PREFIX=/home/shiva/Documents/robot_arm/install/cpp_examples
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.187s] -- The CXX compiler identification is GNU 11.4.0
+[0.196s] -- Detecting C compiler ABI info
+[0.280s] -- Detecting C compiler ABI info - done
+[0.288s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.288s] -- Detecting C compile features
+[0.288s] -- Detecting C compile features - done
+[0.291s] -- Detecting CXX compiler ABI info
+[0.366s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.375s] -- Detecting CXX compile features
+[0.375s] -- Detecting CXX compile features - done
+[0.378s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.074s] -- Found Python3: /home/shiva/.pyenv/shims/python3 (found version "3.10.9") found components: Interpreter 
+[1.253s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.308s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.315s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.326s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.341s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.422s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.426s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.455s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.467s] -- Looking for pthread.h
+[1.522s] -- Looking for pthread.h - found
+[1.522s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.580s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.581s] -- Found Threads: TRUE  
+[1.638s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.681s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.709s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.739s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.912s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.927s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.949s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.976s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.050s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.087s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.087s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.212s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.250s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.313s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.347s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.495s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.496s] -- Configured cppcheck include dirs: 
+[2.496s] -- Configured cppcheck exclude dirs and/or files: 
+[2.496s] -- Added test 'lint_cmake' to check CMake code style
+[2.497s] -- Added test 'uncrustify' to check C / C++ code style
+[2.497s] -- Configured uncrustify additional arguments: 
+[2.498s] -- Added test 'xmllint' to check XML markup files
+[2.499s] -- Configuring done
+[2.518s] -- Generating done
+[2.520s] -- Build files have been written to: /home/shiva/Documents/robot_arm/build/cpp_examples
+[2.531s] Invoked command in '/home/shiva/Documents/robot_arm/build/cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake /home/shiva/Documents/robot_arm/src/cpp_examples -DCMAKE_INSTALL_PREFIX=/home/shiva/Documents/robot_arm/install/cpp_examples
+[2.532s] Invoking command in '/home/shiva/Documents/robot_arm/build/cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/robot_arm/build/cpp_examples -- -j8 -l8
+[2.571s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o[0m
+[8.498s] [100%] [32m[1mLinking CXX executable simple_moveit_interface[0m
+[8.741s] [100%] Built target simple_moveit_interface
+[8.750s] Invoked command in '/home/shiva/Documents/robot_arm/build/cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/robot_arm/build/cpp_examples -- -j8 -l8
+[8.769s] Invoking command in '/home/shiva/Documents/robot_arm/build/cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/robot_arm/build/cpp_examples
+[8.775s] -- Install configuration: ""
+[8.775s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/lib/cpp_examples/simple_moveit_interface
+[8.775s] -- Set runtime path of "/home/shiva/Documents/robot_arm/install/cpp_examples/lib/cpp_examples/simple_moveit_interface" to ""
+[8.775s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/ament_index/resource_index/package_run_dependencies/cpp_examples
+[8.775s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/ament_index/resource_index/parent_prefix_path/cpp_examples
+[8.775s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/cpp_examples/environment/ament_prefix_path.sh
+[8.776s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/cpp_examples/environment/ament_prefix_path.dsv
+[8.776s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/cpp_examples/environment/path.sh
+[8.776s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/cpp_examples/environment/path.dsv
+[8.776s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/cpp_examples/local_setup.bash
+[8.776s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/cpp_examples/local_setup.sh
+[8.776s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/cpp_examples/local_setup.zsh
+[8.776s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/cpp_examples/local_setup.dsv
+[8.776s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/cpp_examples/package.dsv
+[8.776s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/ament_index/resource_index/packages/cpp_examples
+[8.776s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/cpp_examples/cmake/cpp_examplesConfig.cmake
+[8.776s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/cpp_examples/cmake/cpp_examplesConfig-version.cmake
+[8.777s] -- Installing: /home/shiva/Documents/robot_arm/install/cpp_examples/share/cpp_examples/package.xml
+[8.778s] Invoked command in '/home/shiva/Documents/robot_arm/build/cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/robot_arm/build/cpp_examples

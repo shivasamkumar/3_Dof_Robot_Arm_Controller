@@ -1,0 +1,13 @@
+/home/shiva/Documents/robot_arm/build/robot_arm_remote/CMakeFiles/uninstall.dir
+/home/shiva/Documents/robot_arm/build/robot_arm_remote/CMakeFiles/robot_arm_remote_uninstall.dir
+/home/shiva/Documents/robot_arm/build/robot_arm_remote/CMakeFiles/task_server.dir
+/home/shiva/Documents/robot_arm/build/robot_arm_remote/CMakeFiles/task_server_node.dir
+/home/shiva/Documents/robot_arm/build/robot_arm_remote/CMakeFiles/ament_cmake_python_copy_robot_arm_remote.dir
+/home/shiva/Documents/robot_arm/build/robot_arm_remote/CMakeFiles/ament_cmake_python_build_robot_arm_remote_egg.dir
+/home/shiva/Documents/robot_arm/build/robot_arm_remote/CMakeFiles/test.dir
+/home/shiva/Documents/robot_arm/build/robot_arm_remote/CMakeFiles/edit_cache.dir
+/home/shiva/Documents/robot_arm/build/robot_arm_remote/CMakeFiles/rebuild_cache.dir
+/home/shiva/Documents/robot_arm/build/robot_arm_remote/CMakeFiles/list_install_components.dir
+/home/shiva/Documents/robot_arm/build/robot_arm_remote/CMakeFiles/install.dir
+/home/shiva/Documents/robot_arm/build/robot_arm_remote/CMakeFiles/install/local.dir
+/home/shiva/Documents/robot_arm/build/robot_arm_remote/CMakeFiles/install/strip.dir

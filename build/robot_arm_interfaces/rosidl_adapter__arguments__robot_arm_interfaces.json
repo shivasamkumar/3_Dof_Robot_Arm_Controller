@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_arm_interfaces",
+  "non_idl_tuples": [
+    "/home/shiva/Documents/robot_arm/src/robot_arm_interfaces:action/RobotArmTask.action"
+  ]
+}

@@ -1,0 +1,81 @@
+[0.019s] Invoking command in '/home/shiva/Documents/robot_arm/build/robot_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake /home/shiva/Documents/robot_arm/src/robot_arm_description -DCMAKE_INSTALL_PREFIX=/home/shiva/Documents/robot_arm/install/robot_arm_description
+[0.114s] -- The C compiler identification is GNU 11.4.0
+[0.165s] -- The CXX compiler identification is GNU 11.4.0
+[0.174s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.268s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.268s] -- Detecting C compile features
+[0.269s] -- Detecting C compile features - done
+[0.273s] -- Detecting CXX compiler ABI info
+[0.368s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.379s] -- Detecting CXX compile features
+[0.380s] -- Detecting CXX compile features - done
+[0.383s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.292s] -- Found Python3: /home/shiva/.pyenv/shims/python3 (found version "3.10.9") found components: Interpreter 
+[1.513s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.592s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.851s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.852s] -- Added test 'lint_cmake' to check CMake code style
+[1.853s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.856s] -- Added test 'xmllint' to check XML markup files
+[1.858s] -- Configuring done
+[1.860s] -- Generating done
+[1.861s] -- Build files have been written to: /home/shiva/Documents/robot_arm/build/robot_arm_description
+[1.867s] Invoked command in '/home/shiva/Documents/robot_arm/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake /home/shiva/Documents/robot_arm/src/robot_arm_description -DCMAKE_INSTALL_PREFIX=/home/shiva/Documents/robot_arm/install/robot_arm_description
+[1.868s] Invoking command in '/home/shiva/Documents/robot_arm/build/robot_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/robot_arm/build/robot_arm_description -- -j8 -l8
+[1.906s] Invoked command in '/home/shiva/Documents/robot_arm/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/robot_arm/build/robot_arm_description -- -j8 -l8
+[1.931s] Invoking command in '/home/shiva/Documents/robot_arm/build/robot_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/robot_arm/build/robot_arm_description
+[1.939s] -- Install configuration: ""
+[1.939s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes
+[1.940s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes/claw_support.STL
+[1.942s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes/vertical_drive_arm.STL
+[1.944s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes/basement.STL
+[1.946s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes/servo_plate.STL
+[1.947s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes/left_finger.STL
+[1.948s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes/base_plate.STL
+[1.953s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes/round_plate.STL
+[1.954s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes/horizontal_arm.STL
+[1.958s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes/plate.STL
+[1.962s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes/link.STL
+[1.964s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes/triangular_link.STL
+[1.967s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes/forward_drive_arm.STL
+[1.971s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/meshes/right_finger.STL
+[1.972s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/urdf
+[1.972s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/urdf/robot_arm_gazebo_control.xacro
+[1.972s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/urdf/robot_arm_gazebo.xacro
+[1.972s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/urdf/robot_arm_urdf.urdf.xacro
+[1.972s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/rviz
+[1.972s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/rviz/urdf_config.rviz
+[1.972s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/launch
+[1.972s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/launch/display.launch.py
+[1.972s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/launch/gazebo.launch.py
+[1.972s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/models
+[1.972s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/models/ground_plane
+[1.973s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/models/ground_plane/model.config
+[1.973s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/models/ground_plane/model.sdf
+[1.973s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/models/ground_plane/model-1_2.sdf
+[1.973s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/models/ground_plane/model-1_4.sdf
+[1.973s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/models/ground_plane/model-1_3.sdf
+[1.973s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/models/sun
+[1.974s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/models/sun/model.config
+[1.974s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/models/sun/model.sdf
+[1.974s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/models/sun/model-1_2.sdf
+[1.974s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/models/sun/model-1_4.sdf
+[1.974s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/models/sun/model-1_3.sdf
+[1.974s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/ament_index/resource_index/package_run_dependencies/robot_arm_description
+[1.975s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/ament_index/resource_index/parent_prefix_path/robot_arm_description
+[1.975s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/environment/ament_prefix_path.sh
+[1.975s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/environment/ament_prefix_path.dsv
+[1.975s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/environment/path.sh
+[1.975s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/environment/path.dsv
+[1.975s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/local_setup.bash
+[1.975s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/local_setup.sh
+[1.975s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/local_setup.zsh
+[1.976s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/local_setup.dsv
+[1.976s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/package.dsv
+[1.976s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/ament_index/resource_index/packages/robot_arm_description
+[1.976s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/cmake/robot_arm_descriptionConfig.cmake
+[1.976s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/cmake/robot_arm_descriptionConfig-version.cmake
+[1.976s] -- Installing: /home/shiva/Documents/robot_arm/install/robot_arm_description/share/robot_arm_description/package.xml
+[1.978s] Invoked command in '/home/shiva/Documents/robot_arm/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/robot_arm/build/robot_arm_description

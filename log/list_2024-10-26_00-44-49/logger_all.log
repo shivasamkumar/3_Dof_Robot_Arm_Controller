@@ -1,0 +1,116 @@
+[0.186s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/shiva/Documents/robot_arm']
+[0.186s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/shiva/Documents/robot_arm'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76482af3b2e0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x76482af39ea0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x76482af39ea0>>, mixin_verb=('list',))
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.595s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shiva/Documents/robot_arm'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extension 'colcon_pkg'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extensions ['colcon_meta']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extension 'colcon_meta'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extension 'ros'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extensions ['cmake', 'python']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extension 'cmake'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extension 'python'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extensions ['python_setup_py']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm) by extension 'python_setup_py'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/build) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/build) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/build) ignored
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/install) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/install) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/install) ignored
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/log) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/log) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/log) ignored
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extensions ['cmake', 'python']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extension 'cmake'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extensions ['python_setup_py']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src) by extension 'python_setup_py'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/cpp_examples) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/cpp_examples) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/cpp_examples) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/cpp_examples) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/cpp_examples) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/cpp_examples) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/cpp_examples) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/cpp_examples) by extension 'ros'
+[0.632s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shiva/Documents/robot_arm/src/cpp_examples' with type 'ros.ament_cmake' and name 'cpp_examples'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_bringup) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_bringup) by extension 'ignore_ament_install'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_bringup) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_bringup) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_bringup) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_bringup) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_bringup) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_bringup) by extension 'ros'
+[0.634s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shiva/Documents/robot_arm/src/robot_arm_bringup' with type 'ros.ament_cmake' and name 'robot_arm_bringup'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_controller) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_controller) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_controller) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_controller) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_controller) by extensions ['colcon_meta']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_controller) by extension 'colcon_meta'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_controller) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_controller) by extension 'ros'
+[0.637s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shiva/Documents/robot_arm/src/robot_arm_controller' with type 'ros.ament_cmake' and name 'robot_arm_controller'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_description) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_description) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_description) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_description) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_description) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_description) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_description) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_description) by extension 'ros'
+[0.640s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shiva/Documents/robot_arm/src/robot_arm_description' with type 'ros.ament_cmake' and name 'robot_arm_description'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_interfaces) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_interfaces) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_interfaces) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_interfaces) by extension 'colcon_pkg'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_interfaces) by extensions ['colcon_meta']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_interfaces) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_interfaces) by extensions ['ros']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_interfaces) by extension 'ros'
+[0.643s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shiva/Documents/robot_arm/src/robot_arm_interfaces' with type 'ros.ament_cmake' and name 'robot_arm_interfaces'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_moveit) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_moveit) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_moveit) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_moveit) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_moveit) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_moveit) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_moveit) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_moveit) by extension 'ros'
+[0.645s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shiva/Documents/robot_arm/src/robot_arm_moveit' with type 'ros.ament_cmake' and name 'robot_arm_moveit'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_remote) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_remote) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_remote) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_remote) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_remote) by extension 'colcon_pkg'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_remote) by extensions ['colcon_meta']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_remote) by extension 'colcon_meta'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_remote) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shiva/Documents/robot_arm/src/robot_arm_remote) by extension 'ros'
+[0.649s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shiva/Documents/robot_arm/src/robot_arm_remote' with type 'ros.ament_cmake' and name 'robot_arm_remote'
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

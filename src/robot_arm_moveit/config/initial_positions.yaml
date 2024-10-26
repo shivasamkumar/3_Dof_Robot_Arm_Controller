@@ -1,0 +1,6 @@
+# Initial positions for our robot
+initial_positions:
+  joint_1: 0
+  joint_2: 0
+  joint_3: 0
+  joint_4: 0

@@ -7,6 +7,15 @@ This project involves developing a voice-controlled robotic arm that can receive
 The code is designed to be adaptable, allowing the robotic arm to perform actions through both keyboard inputs and a RVIZ (GUI) (for now), with future updates planned to incorporate these features and expand control options.
 ## Installation
 
+
+**Prequisites**
+
+* Ubuntu 22.04 LTS
+
+* ROS2 humble
+
+* Gazebo
+
 **Step 1: Install ROS 2 Humble** 
 
 Follow the [ROS 2 Humble installation](https://docs.ros.org/en/humble/Installation.html) instructions for your operating system if ROS 2 is not already installed.

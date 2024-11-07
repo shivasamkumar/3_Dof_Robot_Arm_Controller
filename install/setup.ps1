@@ -24,6 +24,7 @@ function _colcon_prefix_chain_powershell_source_script {
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/shiva/Documents/ros2_projects/robot_car_V2/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/shiva/Documents/wrk_spc/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/shiva/Documents/bumperbot_wrkspc/install\local_setup.ps1"
 
